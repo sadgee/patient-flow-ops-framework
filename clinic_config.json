@@ -1,0 +1,30 @@
+{
+  "n_providers": 20,
+  "n_patients": 2000,
+  "specialty_mix": {
+    "FAMILY PRACTICE": 4,
+    "INTERNAL MEDICINE": 4,
+    "PEDIATRIC MEDICINE": 2,
+    "OBSTETRICS/GYNECOLOGY": 2,
+    "CARDIOVASCULAR DISEASE (CARDIOLOGY)": 2,
+    "DERMATOLOGY": 1,
+    "ENDOCRINOLOGY": 1,
+    "ORTHOPEDIC SURGERY": 2,
+    "PSYCHIATRY": 1,
+    "GASTROENTEROLOGY": 1
+  },
+  "slots_per_provider_per_day": 16,
+  "clinic_hours": 8,
+  "n_checkin_desks": 2,
+  "n_intake_nurses": 4,
+  "networks_explained": {
+    "A": "Broad private (PPO-like)",
+    "B": "Broad public (Medicare/Medicaid)",
+    "C": "Narrow Medicaid / safety-net"
+  },
+  "payer_to_network": {
+    "private": "A",
+    "public": "B",
+    "uninsured": "C"
+  }
+}
