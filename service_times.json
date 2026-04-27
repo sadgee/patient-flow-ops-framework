@@ -1,0 +1,42 @@
+{
+  "md_speccat_1": {
+    "sigma": 0.45349347591400146,
+    "mu": 2.935936450958252,
+    "mean": 20.879432678222656,
+    "median": 18.839136123657227,
+    "n": 2958,
+    "label": "Primary care"
+  },
+  "md_speccat_2": {
+    "sigma": 0.5130772590637207,
+    "mu": 2.9632160663604736,
+    "mean": 22.083709716796875,
+    "median": 19.360136032104492,
+    "n": 2982,
+    "label": "Surgical specialties"
+  },
+  "md_speccat_3": {
+    "sigma": 0.5196689367294312,
+    "mu": 3.1006431579589844,
+    "mean": 25.423425674438477,
+    "median": 22.21223258972168,
+    "n": 2193,
+    "label": "Medical specialties"
+  },
+  "checkin": {
+    "distribution": "lognormal",
+    "mu": 0.9162907318741551,
+    "sigma": 0.4,
+    "mean": 2.7082176691873965,
+    "median": 2.5,
+    "source": "Assumed; literature: Cayirli & Veral 2003 cite registration ~2-5 min"
+  },
+  "nurse_intake": {
+    "distribution": "lognormal",
+    "mu": 2.24436741150216,
+    "sigma": 0.45,
+    "mean": 10.439716339111328,
+    "median": 9.434445546643362,
+    "source": "Calibrated to ~50% of NAMCS primary-care TIMEMD; Gupta & Denton 2008 assume nurse:MD time ratio ~0.4-0.6"
+  }
+}
